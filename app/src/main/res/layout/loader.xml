@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/farm_care">
+    >
 
     <ImageView
         android:layout_width="match_parent"
@@ -23,9 +23,21 @@
         android:text="Farm Care"
         android:textSize="50sp"
         android:textColor="@color/dark_green"
-        android:textStyle="bold"
         >
     </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User friendly support with technology and care"
+        android:textColor="@color/farm_green">
+    </TextView>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="© All rights reserved"
+        android:textColor="@color/black">
+    </TextView>
 
 </LinearLayout>
