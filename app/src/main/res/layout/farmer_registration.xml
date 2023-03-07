@@ -16,7 +16,7 @@
     <ImageView
         android:id="@+id/farm_care_reg_icon"
         android:layout_width="match_parent"
-        android:layout_height="500px"
+        android:layout_height="100dp"
         android:src="@drawable/farm_care_icon"
         >
     </ImageView>

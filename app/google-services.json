@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "811252825560",
+    "project_id": "farm-care-f4b30",
+    "storage_bucket": "farm-care-f4b30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811252825560:android:ca2518b9e24f7821e446ad",
+        "android_client_info": {
+          "package_name": "com.example.harvestmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811252825560-o33j3ru7li9fm3bmvrtfd9fadt865c5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPQkK-mNWZJUmvjg_8ZenmHngh29CXJUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811252825560-o33j3ru7li9fm3bmvrtfd9fadt865c5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
