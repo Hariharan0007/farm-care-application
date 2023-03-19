@@ -50,6 +50,9 @@
             android:name=".FarmerRegistration"
             android:exported="true"
             android:screenOrientation="nosensor" />
+        <activity android:name=".HelpSupport"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
     </application>
 
 </manifest>
