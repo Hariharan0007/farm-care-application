@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Farm Care Technologies"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="          This application is developed for the farmers to get better utilization of technologies with drone for scanning for the affected crop and get the details of the infected diease.\n
+        After finding the affected plant details,Then appropriate solution will be provided">
+    </TextView>
+</LinearLayout>

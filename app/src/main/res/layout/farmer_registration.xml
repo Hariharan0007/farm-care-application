@@ -60,11 +60,37 @@
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:id="@+id/farm_care_reg_textfield_number"
+        android:id="@+id/farm_care_reg_textfield_password"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/farm_care_reg_textfield_name"
+        android:layout_centerInParent="true"
+        android:hint="Password"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black"
+        app:startIconTint="@color/black"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/farmer_reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/black"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/farm_care_reg_textfield_number"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/farm_care_reg_textfield_password"
         android:layout_centerInParent="true"
         android:hint="Mobile no"
         android:textColorHint="@color/black"
@@ -110,31 +136,6 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:id="@+id/farm_care_reg_textfield_gender"
-        android:layout_width="250dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="10dp"
-        android:layout_below="@+id/farm_care_reg_textfield_age"
-        android:layout_centerInParent="true"
-        android:hint="Gender"
-        android:textColorHint="@color/black"
-        android:textCursorDrawable="@color/black"
-        app:boxStrokeColor="@color/black"
-        app:hintTextColor="@color/black"
-        app:startIconTint="@color/black"
-        >
-
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView
-            android:id="@+id/farmer_reg_gender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:textColor="@color/black"
-            />
-
-    </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -142,7 +143,7 @@
         android:layout_width="250dp"
         android:layout_height="90dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/farm_care_reg_textfield_gender"
+        android:layout_below="@+id/farm_care_reg_textfield_age"
         android:layout_centerInParent="true"
         android:hint="Address"
         android:textColorHint="@color/black"
